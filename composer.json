@@ -1,0 +1,32 @@
+{
+    "name": "kidkang/laravel-upload",
+    "description": "laravel update controllerr migration mode",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kidkang",
+            "email": "723616880@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kd\\Upload\\":"src/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.laravel-china.org"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kd\\Upload\\UploadServiceProvider"
+            ]
+        }
+    }
+}
